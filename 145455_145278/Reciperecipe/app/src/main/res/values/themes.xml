@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.Myrecipe" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Status bar color.-->
+        <item name="statusBarBackground">@color/grey</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/teal_700</item>
+        <item name="android:navigationBarColor">@color/white</item>
+    </style>
+    <style name="Theme.App.Splashscreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/teal_700</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splashscreen</item>
+        <item name="windowSplashScreenIconBackgroundColor">@color/teal_700</item>
+        <item name="postSplashScreenTheme">@style/Theme.Myrecipe</item>
+    </style>
+
+
+
+</resources>
